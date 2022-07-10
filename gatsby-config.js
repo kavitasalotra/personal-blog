@@ -3,11 +3,6 @@ module.exports = {
     title: `Personal Blog`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: [{
-    resolve: 'gatsby-source-contentful',
-    options: {
-      "accessToken": "",
-      "spaceId": ""
-    }
-  }, "gatsby-plugin-styled-components"]
+  plugins: [
+  "gatsby-plugin-styled-components"]
 };
